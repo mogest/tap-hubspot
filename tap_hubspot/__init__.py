@@ -1083,7 +1083,8 @@ def do_discover():
 
 def main_impl():
     args = utils.parse_args(
-        ["redirect_uri",
+        ["access_token",
+         "redirect_uri",
          "client_id",
          "client_secret",
          "refresh_token",
